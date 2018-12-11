@@ -392,8 +392,6 @@ Make ``custom.css`` from ``bootstrap.css`` and copy to ``source/_static`` folder
 
 - Copy a saved ``custom.css`` into the ``source/_static`` folder for each of the guides you need to apply overrides to ``bootstrap-sphinx.css``, which is applied by default.
 
-- See the ``/* Styleguide */`` comments in the ``custom.css`` that document the changes made to the ``darkly`` themed ``bootstrap.css`` for the TASA Portal Styleguide PDF.
-
 - Use the broswer inspector to find hex color values applied to the output HTML from ``bootstrap.css`` that you then modify in ``custom.css`` to override default CSS colors.
 
 .. note::
@@ -442,7 +440,7 @@ and replace it with:
 
    ``<input_N>.md`` is the filename for the last Markdown file in a series of content files for a single book with an ``.md`` suffix.
 
-   ``<copyright>.md`` is the filename for the Markdown source file required for the Telstra copyright notice to match ``index.rst``.
+   ``<copyright>.md`` is the filename for the Markdown source file required for the copyright notice to match ``index.rst``.
 
    ``pandoc`` will combine multiple Markdown source files into a single PDF file so each Markdown file can be a chapter in a book.
 
@@ -462,7 +460,7 @@ Add the below cover information at the start of your initial ``.md`` file:
 
   ---
   title: <document-title>
-  author: Telstra NZ
+  author: <author>
   date: <current-date>
   output: pdf_document
   ---
