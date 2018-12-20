@@ -9,3 +9,5 @@ Works around the use of tables in Markdown so they get formatted correctly in bo
 Removed proprietary references to employer and product to share as a GitHub Gist with the open source community to share ideas and get updates and/or improvements as others try this out for themselves if they need to use Sphinx and want developers to commit Markdown.
 
 Will also need to share in a Gist a related build.sh bash script that gets run by Jenkins to build the PDF and HTML output from Sphinx.
+
+See the Public GitHub Gist here from this Public GitHub repository: https://gist.github.com/johncrossland/9f6f54d559e9136773172aa0a429b46f
